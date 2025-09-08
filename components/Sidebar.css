@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.flex{
+    font-size: 1rem;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:10px;    
+    margin-top: 50%;
+    margin-left: 15%;
+    margin-bottom: 20%;
+    margin-right: 15%;
+    justify-content: center;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: -50%;
+    box-shadow: 1px 1px 1px 1px ;
+}
+.logo_line {
+  border: none;
+  height: 2px;          
+  width: 100%;          
+  margin-top: 60%;     
+  background: black;
+}
+.app.dark .logo_line{
+      background: rgb(255, 255, 255);
+
+}
+.button{
+    width: 80%;
+    background-color:blue;
+    color:white;
+    border-radius:10px;
+    padding:10px;
+    border:none;
+    cursor:pointer;
+    box-shadow: 1px 1px 1px 1px ;
+}
+.button:hover{
+    background-color:royalblue;
+    font-size: 100%;
+    text-decoration: underline;
+}
+.flex button { 
+  width: 120px;
+  height: 40px;
+}
