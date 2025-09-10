@@ -1,0 +1,117 @@
+body{
+    padding: 10;
+    margin: 0;
+}
+h1{
+    margin-top:1px;
+}
+h5{
+    margin-top: -15px;
+    margin-left: 5px;
+}
+.app.dark .box_task_card{
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: solid white;
+}
+.app.dark .input-group label{
+    color: #ffffff;
+}
+.app.dark .input-group input{
+    background-color: #2a2a2a;
+    border: solid #ffffff;
+}
+.app.dark .input-group ::placeholder{
+    color: white;
+}
+.app.dark .input-group .date input[type="date"]{
+    color: white;
+}
+.app.dark input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+.app.dark .input-group textarea{
+    background-color: #2a2a2a;
+    border: solid white;
+}
+@media (max-width: 700px) {
+  .box_task_card {
+    width: 95%;
+    margin-right: 10px;
+  }
+}
+.box_task_card {
+  padding: 20px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1400px;
+  margin-right: 20px;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+
+.input-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title category"
+    "description description"
+    "date addtask";
+  gap: 20px;                         
+  width: 80%;
+  margin: auto;
+}
+.field {
+  display: flex;
+  flex-direction: column;            
+}
+.title {
+  grid-area: title;
+}
+.category {
+  grid-area: category;
+}
+.description {
+  grid-area: description;
+}
+.date {
+  grid-area: date;
+}
+.date input[type="date"] {
+  font-size: 14px;
+}
+.add-task {
+  grid-area: addtask;
+}
+.task_button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: blue;
+  color: white;
+  cursor: pointer;
+}
+.input-group label {
+   display: flex;
+   flex-direction: column;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+.task_input {
+  background-color: #ffffff;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.description .task_input{
+    min-height: 100px;
+    resize: vertical;
+}
