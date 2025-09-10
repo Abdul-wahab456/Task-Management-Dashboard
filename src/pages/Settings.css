@@ -1,0 +1,82 @@
+.settings-page {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-page h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Grid layout for inputs */
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.profile-grid label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #555;
+}
+
+.profile-grid input,
+.profile-grid textarea {
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+.profile-grid textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Action buttons */
+.settings-actions {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+}
+
+.save-btn,
+.back-btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.save-btn {
+  background: #007bff;
+  color: white;
+}
+
+.save-btn:hover {
+  background: #0056b3;
+}
+
+.back-btn {
+  background: #6c757d;
+  color: white;
+}
+
+.back-btn:hover {
+  background: #495057;
+}

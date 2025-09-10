@@ -1,0 +1,162 @@
+body {
+  padding: 10;
+  margin: 0;
+}
+h1 {
+  margin-top: 1px;
+}
+h5 {
+  margin-top: -15px;
+  margin-left: 5px;
+}
+.app.dark .box_task_card {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+.app.dark .input-group label {
+  color: #ffffff;
+}
+.app.dark .input-group input {
+  background-color: #2a2a2a;
+  border: solid #ffffff;
+  color: white;
+}
+.app.dark .input-group ::placeholder {
+  color: white;
+}
+.app.dark .input-group .date input[type="date"] {
+  color: white;
+}
+.app.dark input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+.app.dark .input-group textarea {
+  background-color: #2a2a2a;
+  border: solid white;
+  color: white;
+}
+@media (max-width: 700px) {
+  .box_task_card {
+    /* width: 10%; */
+    margin-right: 10px;
+    display: flex;
+    border: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+@media (max-width: 700px) {
+  .input-group {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "title"
+      "category"
+      "description"
+      "date"
+      "addtask";
+  }
+}
+.box_task_card {
+  padding: 20px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin-right: 20px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.5);
+}
+.message {
+  padding: 10px;
+  width: 15%;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+}
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-color: #f5c6cb;
+}
+
+.input-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title category"
+    "description description"
+    "date addtask";
+  gap: 20px;
+  width: 100%;
+  margin: auto;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  grid-area: title;
+}
+.category {
+  grid-area: category;
+}
+.app.dark .field.Category select.task_input {
+  background-color: #2a2a2a;
+  color: white;
+  border: solid white;
+}
+
+.app.dark .field {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+.description {
+  grid-area: description;
+}
+.date {
+  grid-area: date;
+}
+.date input[type="date"] {
+  font-size: 14px;
+}
+.add-task {
+  grid-area: addtask;
+}
+.task_button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: blue;
+  color: white;
+  cursor: pointer;
+}
+.input-group label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+.task_input {
+  background-color: #ffffff;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.description .task_input {
+  min-height: 100px;
+  resize: vertical;
+}
