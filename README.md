@@ -81,7 +81,4 @@ Feel free to fork the repo, open issues, or submit pull requests!
 Have questions or suggestions?  
 Reach out via [GitHub Issues](https://github.com/Abdul-wahab456/Task-Management-Dashboard/issues) or connect with me on [GitHub](https://github.com/Abdul-wahab456).
 
----
-
-> _Empower your workflow. Stay organized. Get things done!_
 
