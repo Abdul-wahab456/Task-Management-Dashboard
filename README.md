@@ -17,7 +17,8 @@ A sleek and intuitive tool designed to help you organize, track, and manage your
 
 ## 🖼️ Demo
 
-<img width="1434" height="798" alt="Task-Management-Pic" src="https://github.com/user-attachments/assets/0a019c4e-c70f-4af8-b933-a61c2aaefd18" />  
+<img width="1200" height="750" alt="Task-Management-Pic" src="https://github.com/user-attachments/assets/0a019c4e-c70f-4af8-b933-a61c2aaefd18" />
+
 *Experience the modern UI and fluid interactions!*
 
 ---
