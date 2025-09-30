@@ -1,4 +1,4 @@
-# 📝 Task Management Dashboard
+<img width="1434" height="798" alt="Task-Management-Pic" src="https://github.com/user-attachments/assets/0a019c4e-c70f-4af8-b933-a61c2aaefd18" /># 📝 Task Management Dashboard
 
 Welcome to the **Task Management Dashboard**! 🚀  
 A sleek and intuitive tool designed to help you organize, track, and manage your tasks efficiently. Built with **React**, **JavaScript**, **CSS**, and **HTML**.
@@ -17,7 +17,8 @@ A sleek and intuitive tool designed to help you organize, track, and manage your
 
 ## 🖼️ Demo
 
-![Dashboard Screenshot](assets/dashboard-preview.png)  
+![Dashboard Screenshot] ![Uploading Task-Management-Pic.png…]()
+  
 *Experience the modern UI and fluid interactions!*
 
 ---
